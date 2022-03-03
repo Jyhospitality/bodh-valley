@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="description" content="The Bodh Valley Resort in Igatpuri is the perfect getaway where you can relax and rejuvenate in the lap of nature. So far away from perennially rushing urban life that you might as well think you’re in an earlier era, this is just the place for some quiet contemplation. With nine peaks watching over you in this hidden valley, Bodh Valley is where you lose yourself to discover yourself anew.">
+    <meta name="keywords" content="Resort in igatpuri, hotel in igatpuri, best resort in igatpuri, best hotel in igatpuri, bodh valley, bodh valley igatpuri, bodh, 1 day picnic, picnic place near mumbai, igatpuri, budget hotel in igatpuri">
+
+    <title>Bodh Valley | Igatpuri</title>
+    <!-- Stylesheets -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/revolution-slider.css" rel="stylesheet">
+    <link href="css/owl.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="css\font-awesome\css\font-awesome.min.css">
+
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <!-- Responsive -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <link href="css/responsive.css" rel="stylesheet">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-123780728-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-123780728-1');
+    </script>
+
+
+    <style>
+        #popUpMain {
+            position: fixed;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.2);
+            z-index: 10001;
+        }
+        
+        #popup {
+            width: 100%;
+            max-width: 40%;
+            height: 600px;
+            padding: 1% 1%;
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), transparent center center no-repeat;
+            background-size: cover;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            box-shadow: 3px 5px 5px 3px rgba(255, 255, 255, 0.4);
+            text-align: center;
+        }
+        
+        #popup .image {
+            padding: 1% !important;
+            width: 100%;
+            height: 90%;
+        }
+        
+        #popup .image img {
+            width: 100%;
+            height: 100%;
+        }
+        
+        #popup .button-container {
+            height: 10%;
+        }
+        
+        .button-container {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        
+        .button-container .submitId {
+            padding: 8px 20px;
+            border: none;
+            border-radius: 2px;
+            font-size: 16px;
+            font-weight: 600;
+            color: var(--title-color);
+            background: #d72323;
+            outline: none;
+            text-decoration: none;
+            transition: .3s ease-in;
+        }
+        
+        .button-container .submit-active {
+            color: var(--title-color);
+            background: var(--main-color);
+            text-decoration: none;
+            transition: .3s ease-in;
+        }
+        
+        .button-container .submit-active:hover {
+            background: var(--title-color);
+            color: var(--main-color);
+        }
+        
+        @media (max-width: 550px) {
+            #popup {
+                max-width: 95%;
+                height: 450px;
+            }
+            .button-container .submitId {
+                padding: 6px 18px;
+                font-size: 14px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <!--  <div id="popUpMain" style="display: none;">
+        <div id="popup">
+            <div class="image">
+                <img src="images/closed.png" alt="Bodh Valley">
+             
+              </div>
+            
+              <div class="button-container">
+                <a class="submitId submit-active" href="contact.html" target="_blank" >Book Now</a></button> 
+                <button class="submitId">Thanks</button>
+              </div>
+        </div>
+    </div>-->
+
+
+    <div class="page-wrapper">
+
+        <!-- Preloader -->
+        <div class="preloader"></div>
+
+        <!-- Main Header-->
+        <header class="main-header">
+
+            <!-- Main Box -->
+            <div class="main-box">
+                <div class="auto-container">
+                    <div class="outer-container clearfix">
+                        <!--Logo Box-->
+                        <div class="logo-box">
+                            <div class="logo">
+                                <a href="index.html"><img src="images/logo.png" alt="Grand View"></a>
+                            </div>
+                        </div>
+
+                        <!--Nav Outer-->
+                        <div class="nav-outer clearfix">
+                            <!-- Main Menu -->
+                            <nav class="main-menu">
+                                <div class="navbar-header">
+                                    <!-- Toggle Button -->
+                                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                                            <span class="icon-bar"></span>
+                                            <span class="icon-bar"></span>
+                                            <span class="icon-bar"></span>
+                                        </button>
+                                </div>
+
+                                <div class="navbar-collapse collapse clearfix nav-mobile">
+                                    <ul class="navigation clearfix">
+                                        <li><a href="index.html">Home</a></li>
+
+                                        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Rooms<span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="tent.html">Tent</a></li>
+                                                <li><a href="deluxe.html">Deluxe Room</a></li>
+                                                <li><a href="family.html">Family Room</a></li>
+                                                <li><a href="suite.html">Suite Room</a></li>
+                                                <li><a href="villa.html">Villa</a></li>
+                                                <li><a href="groupvilla.html">Group Villa</a></li>
+                                            </ul>
+                                        </li>
+
+                                        <li><a href="meeting-events.html">Meeting & events</a></li>
+                                        <li><a href="offer.html">Special Offer</a></li>
+                                        <li><a href="gallery.html">Gallery</a></li>
+                                        <li><a href="contact.html">Contact us</a></li>
+                                        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Language<span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="https://bodhvalleyresort.com.translate.goog/?_x_tr_sl=auto&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp">English</a></li>
+                                                <li><a href="https://bodhvalleyresort-com.translate.goog/?_x_tr_sl=auto&_x_tr_tl=hi&_x_tr_hl=en&_x_tr_pto=wapp">Hindi</a></li>
+                                                <li><a href="https://bodhvalleyresort-com.translate.goog/?_x_tr_sl=auto&_x_tr_tl=pa&_x_tr_hl=en&_x_tr_pto=wapp">Punjabi</a></li>
+                                                <li><a href="https://bodhvalleyresort-com.translate.goog/?_x_tr_sl=auto&_x_tr_tl=mr&_x_tr_hl=en&_x_tr_pto=wapp">Marathi</a></li>
+                                                <!-- <li><a href="villa.html">Villa</a></li>
+                                                    <li><a href="groupvilla.html">Group Villa</a></li> -->
+                                            </ul>
+                                        </li>
+                                        <li><a href="tel:08830061624" class="book-button" role="button">Book now</a></li>
+
+                                    </ul>
+                                </div>
+                            </nav>
+                            <!-- Main Menu End-->
+
+                        </div>
+                        <!--Nav Outer End-->
+                        <!-- Hidden Nav Toggler -->
+                        <div class="nav-toggler">
+                            <button class="hidden-bar-opener"><span class="icon fa fa-bars"></span></button>
+                        </div>
+                        <!-- / Hidden Nav Toggler -->
+
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!--End Main Header -->
+
+        <!-- Hidden Navigation Bar -->
+        <section class="hidden-bar right-align">
+
+            <div class="hidden-bar-closer">
+                <button class="btn"><i class="fa fa-close"></i></button>
+            </div>
+
+            <!-- Hidden Bar Wrapper -->
+            <div class="hidden-bar-wrapper">
+
+                <!-- .logo -->
+                <div class="logo text-center">
+                    <a href="index.html"><img src="images/logo.png" alt="bodh"></a>
+                </div>
+                <!-- /.logo -->
+
+                <!-- .Side-menu -->
+                <div class="side-menu">
+                    <!-- .navigation -->
+
+                    <ul class="navigation clearfix">
+                        <li><a href="index.html">Home</a></li>
+                        <li class="dropdown"><a class="dropdown-toggle active" data-toggle="dropdown" href="#">Rooms<span class=""></span></a>
+                            <ul class="dropdown-menu"><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tent</b>
+                                <li><a href="tent.html">Tent</a></li><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Deluxe Room</b>
+                                <li><a href="deluxe.html">Deluxe Room</a></li><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Family Room</b>
+                                <li><a href="family.html">Family Room</a></li><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Suite Room</b>
+                                <li><a href="Suite.html">Suite Room</a></li><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Villa</b>
+                                <li><a href="villa.html">Villa</a></li>
+                            </ul>
+                        </li>
+
+                        <li><a href="meeting-events.html">Meeting & events</a></li>
+                        <li><a href="offer.html">Special Offer</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="contact.html">Contact us</a></li>
+                        <li><a href="tel:08830061624" class="btn-success" role="button">Call NOW</a></li>
+                    </ul>
+                </div>
+                <!-- /.Side-menu -->
+
+                <div class="social-icons">
+                    <ul>
+                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                    </ul>
+                </div>
+
+            </div>
+            <!-- / Hidden Bar Wrapper -->
+        </section>
+        <!-- / Hidden Bar -->
+
+
+        <!--Main Slider-->
+        <section class="main-slider" data-start-height="850" data-slide-overlay="yes">
+
+            <div class="tp-banner-container">
+                <div class="tp-banner">
+                    <ul>
+
+
+
+
+
+                        <li data-transition="fade" data-slotamount="1" data-masterspeed="1000" data-thumb="images/b5.jpg" data-saveperformance="off" data-title="Awesome Title Here">
+                            <img src="images/b5.jpg" alt="" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
+
+                            <div class="tp-caption sfr sfb tp-resizeme" data-x="center" data-hoffset="0" data-y="center" data-voffset="0" data-speed="1500" data-start="500" data-easing="easeOutExpo" data-splitin="none" data-splitout="none" data-elementdelay="0.01" data-endelementdelay="0.3"
+                                data-endspeed="1200" data-endeasing="Power4.easeIn">
+                                <div class="text"></div>
+                            </div>
+
+                            <div class="tp-caption sfl sfb tp-resizeme" data-x="center" data-hoffset="0" data-y="center" data-voffset="60" data-speed="1500" data-start="500" data-easing="easeOutExpo" data-splitin="none" data-splitout="none" data-elementdelay="0.01" data-endelementdelay="0.3"
+                                data-endspeed="1200" data-endeasing="Power4.easeIn">
+                                <h2>Memories To Treasure!</h2>
+                            </div>
+
+
+                        </li>
+
+
+
+                        <li data-transition="fade" data-slotamount="1" data-masterspeed="1000" data-thumb="images/b4.jpg" data-saveperformance="off" data-title="Awesome Title Here">
+                            <img src="images/b4.jpg" alt="" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
+
+                            <div class="tp-caption sfr sfb tp-resizeme" data-x="center" data-hoffset="0" data-y="center" data-voffset="0" data-speed="1500" data-start="500" data-easing="easeOutExpo" data-splitin="none" data-splitout="none" data-elementdelay="0.01" data-endelementdelay="0.3"
+                                data-endspeed="1200" data-endeasing="Power4.easeIn">
+                                <div class="text"></div>
+                            </div>
+
+                            <div class="tp-caption sfl sfb tp-resizeme" data-x="center" data-hoffset="0" data-y="center" data-voffset="60" data-speed="1500" data-start="500" data-easing="easeOutExpo" data-splitin="none" data-splitout="none" data-elementdelay="0.01" data-endelementdelay="0.3"
+                                data-endspeed="1200" data-endeasing="Power4.easeIn">
+                                <h2>Premium Villa</h2>
+                            </div>
+
+
+                        </li>
+
+                        <li data-transition="fade" data-slotamount="1" data-masterspeed="1000" data-thumb="images/b2.jpg" data-saveperformance="off" data-title="Awesome Title Here">
+                            <img src="images/b2.jpg" alt="" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
+
+                            <div class="tp-caption sfr sfb tp-resizeme" data-x="center" data-hoffset="0" data-y="center" data-voffset="0" data-speed="1500" data-start="500" data-easing="easeOutExpo" data-splitin="none" data-splitout="none" data-elementdelay="0.01" data-endelementdelay="0.3"
+                                data-endspeed="1200" data-endeasing="Power4.easeIn">
+                                <div class="text">Say Hello to</div>
+                            </div>
+
+                            <div class="tp-caption sfl sfb tp-resizeme" data-x="center" data-hoffset="0" data-y="center" data-voffset="60" data-speed="1500" data-start="500" data-easing="easeOutExpo" data-splitin="none" data-splitout="none" data-elementdelay="0.01" data-endelementdelay="0.3"
+                                data-endspeed="1200" data-endeasing="Power4.easeIn">
+                                <h2>Beautiful Morning</h2>
+                            </div </li>
+                        </li>
+
+                        <li data-transition="fade" data-slotamount="1" data-masterspeed="1000" data-thumb="images/b1.jpg" data-saveperformance="off" data-title="Awesome Title Here">
+                            <img src="images/b1.jpg" alt="" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
+
+                            <div class="tp-caption sfr sfb tp-resizeme" data-x="center" data-hoffset="0" data-y="center" data-voffset="0" data-speed="1500" data-start="500" data-easing="easeOutExpo" data-splitin="none" data-splitout="none" data-elementdelay="0.01" data-endelementdelay="0.3"
+                                data-endspeed="1200" data-endeasing="Power4.easeIn">
+                                <div class="text">Come & Enjoy</div>
+                            </div>
+
+                            <div class="tp-caption sfl sfb tp-resizeme" data-x="center" data-hoffset="0" data-y="center" data-voffset="60" data-speed="1500" data-start="500" data-easing="easeOutExpo" data-splitin="none" data-splitout="none" data-elementdelay="0.01" data-endelementdelay="0.3"
+                                data-endspeed="1200" data-endeasing="Power4.easeIn">
+                                <h2>Precious moment with us</h2>
+                            </div>
+
+
+
+                        </li>
+
+
+
+
+
+
+                    </ul>
+
+                    <div class="tp-bannertimer"></div>
+                </div>
+            </div>
+        </section>
+        <!--End Main Slider-->
+
+
+
+        <!--Explore Section-->
+        <section class="explore-section">
+            <div class="auto-container">
+                <div class="row clearfix">
+                    <!--Title Column-->
+                    <div class="title-column col-md-5 col-sm-6 col-xs-12">
+                        <div class="inner-box">
+                            <h2>Bodh Valley Resort<br> Enjoy the unforgettable<br> Moment with us</h2>
+                            <a href="gallery.html" class="more-link">Explore Us</a>
+                        </div>
+                    </div>
+
+                    <!--Content Column-->
+                    <div class="content-column col-md-7 col-sm-6 col-xs-12">
+                        <div class="inner-box">
+                            <h3>Welcome To Bodh Valley - Igatpuri</h3>
+                            <div class="text">Bodh Valley Resort in Igatpuri is the perfect getaway where you can relax and rejuvenate in the lap of nature. So far away from perennially rushing urban life that you might as well think you’re in an earlier era, this is just
+                                the place for some quiet contemplation. With nine peaks watching over you in this hidden valley, Bodh Valley is where you lose yourself to discover yourself anew. So what are you waiting for? Get away from the din and the
+                                crowds of city life, drive down to the picturesque hill town of Igatpuri. It may be a world apart, but it’s only a 3-hour drive from Mumbai. Take the break you deserve, in style: a memorable experience in hospitality and
+                                serenity awaits you at Bodh Valley Resort, nestled in a lush green valley. With its impeccable quality of service, wide-ranging conveniences and scenic settings, Bodh Valley is the preferred destination of elite holidaymakers.
+                                Guests of our resort can hope to experience pristine valleys and mountains best in Igatpuri.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+        <!--End Explore Section-->
+
+
+
+
+        <br>
+
+        <!--Our Gallery Section-->
+        <section class="our-gallery">
+            <!--Outer Box-->
+            <div class="outer-box clearfix">
+
+
+                <!--Right Column-->
+                <div class="column right-column">
+                    <div class="content-box">
+                        <div class="sec-title-two">
+                            <h2>Why Bodh Valley Resort ?</h2>
+                            <h3>Sweet Time</h3>
+                        </div>
+
+                        <div class="text">• Peaceful location • View resort. • Luxury Rooms • Veg Meals. • Swimming Pool • Free Wifi
+                        </div>
+
+                    </div>
+                </div>
+
+                <!--Left Column-->
+                <div class="column left-column">
+                    <!--Three Item Carousel-->
+                    <div class="three-item-carousel">
+                        <!--Gallery Item Two-->
+                        <div class="gallery-item-two">
+                            <div class="inner-box">
+                                <figure class="image-box">
+                                    <img src="images/gallery/c1.jpg" alt="" />
+
+                                    <!--Overlay Box-->
+                                </figure>
+                            </div>
+                        </div>
+
+                        <!--Gallery Item Two-->
+                        <div class="gallery-item-two">
+                            <div class="inner-box">
+                                <figure class="image-box">
+                                    <img src="images/gallery/c2.JPG" alt="" />
+
+                                    <!--Overlay Box-->
+
+                                </figure>
+                            </div>
+                        </div>
+
+                        <!--Gallery Item Two-->
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+        <!--End Our Gallery Section-->
+
+
+
+
+        <br><br><br>
+        <!--Services Section-->
+        <div class="auto-container">
+            <div class="row clearfix">
+                <!--Column-->
+                <div class="title-column col-md-4 col-sm-12 col-xs-12">
+                    <div class="inner-box">
+                        <!--Sec Title-->
+                        <div class="sec-title">
+                            <h2>Our Service</h2>
+                            <h3>What We Do</h3>
+                        </div>
+
+                        <div class="text">Celebrate your birthday, Wedding anniversary or any kind of celebrations with DJ night and unlimited snacks. Experience the charm of Maharashtra here at Bodh Valley resort. </div>
+                        <br><a class="see-services theme-btn btn-style-two" href="deluxe.html">See all services</a>
+                    </div>
+                </div>
+
+                <!--Content Column-->
+                <div class="content-column col-md-8 col-sm-12 col-xs-12">
+
+                    <div class="row clearfix">
+                        <!--Service Block-->
+
+
+                        <!--Service Block-->
+
+                        <div class="service-block col-md-6 col-sm-6 col-xs-12">
+                            <div class="inner">
+                                <div class="icon-box"><span class="fa fa-bed"></span></div>
+                                <h3>Luxury BedRooms</h3>
+                                <div class="text">One of the most spacious rooms with breathtaking Mountain view, you will surely experience the view which you crave for.</div>
+                            </div>
+                        </div>
+
+                        <!--Service Block-->
+                        <div class="service-block col-md-6 col-sm-6 col-xs-12">
+                            <div class="inner">
+                                <div class="icon-box"><span class="fa fa-bath"></span></div>
+                                <h3>Pool </h3>
+                                <div class="text">Enjoy the pool facility as complimentary.</div>
+                            </div>
+                        </div>
+
+                        <!--Service Block-->
+                        <div class="service-block col-md-6 col-sm-6 col-xs-12">
+                            <div class="inner">
+                                <div class="icon-box"><span class="fa fa-wifi"></span></div>
+                                <h3>Wifi coverage</h3>
+                                <div class="text">We Offer Free WiFi at Lobby.</div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        </section>
+        <!--End Services Section-->
+
+
+
+
+
+
+
+        <!--Main Footer-->
+        <footer class="main-footer">
+            <div class="auto-container">
+
+                <!--Widgets Section-->
+                <div class="widgets-section">
+                    <div class="row clearfix">
+                        <!--Big Column-->
+                        <div class="big-column col-md-6 col-sm-12 col-xs-12">
+                            <div class="row clearfix">
+
+                                <!--Footer Column-->
+                                <div class="footer-column col-md-7 col-sm-6 col-xs-12">
+                                    <div class="footer-widget about-widget">
+                                        <div class="footer-logo">
+                                            <figure>
+                                                <a href="index.html"><img src="images/logo.png" alt=""></a>
+                                            </figure>
+                                        </div>
+                                        <div class="widget-content">
+                                            <div class="text">This friendly resort is a beautifully maintained place with a long facade of wood and glass leading onto a garden, terrace; the hill peaks seem within touching distance. A sister venture of Rainforest Resort.</div>
+                                            <div class="social-links">
+                                                <a href="https://www.facebook.com/bodhvalleyresort/" target="_blank"><span class="fa fa-facebook-f"></span></a>
+                                                <a href="https://twitter.com/bodhresort" target="_blank"><span class="fa fa-twitter"></span></a>
+                                                <a href="https://www.instagram.com/bodhvalley/" target="_blank"><span class="fa fa-instagram"></span></a>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!--Footer Column-->
+                                <div class="footer-column col-md-5 col-sm-6 col-xs-12">
+                                    <div class="footer-widget links-widget">
+                                        <h2>Quick Links</h2>
+                                        <div class="widget-content">
+                                            <ul class="list">
+                                                <li><a href="index.html">Home</a></li>
+                                                <li><a href="offer.html">Special Offer</a></li>
+                                                <li><a href="gallery.html">Gallery</a></li>
+                                                <li><a href="contact.html">Contact us</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <!--Big Column-->
+                        <div class="big-column col-md-6 col-sm-12 col-xs-12">
+                            <div class="row clearfix">
+
+                                <!--Footer Column-->
+                                <div class="footer-column col-md-6 col-sm-6 col-xs-12">
+                                    <div class="footer-widget twitter-widget">
+                                        <h2>Social Link</h2>
+                                        <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Fbodhvalleyresort%2F&width=450&layout=standard&action=like&size=small&show_faces=true&share=true&height=80&appId" width="300" height="80" style="border:none;overflow:hidden"
+                                            scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+                                    </div>
+                                    <!--Footer Column-->
+
+
+                                    <!--Footer Column-->
+
+                                    <p align="center" style="color:white">
+                                        <h3 style="color:white">Andheri Sales Office</h3><br>
+                                        <h5 style="color:white">Unit No 130, 1st Floor, F - Wing, Kamlesh Apartment, Near Punjab Express Restaurant, Sher-E-Punjab CHS., Andheri East, Mumbai - 400 093.</p>
+                                    Mobile Number - 08830061624 / 8422880177<br> Email id :-
+                                    <a href="bodhvalleyresort@gmail.com"></h5>
+                                        <font color="white">bodhvalleyresort@gmail.com</a>
+                                    </p>
+                                </div>
+
+                                <!--Footer Column-->
+
+                                <!--Footer Column-->
+                                <div class="footer-column col-md-6 col-sm-6 col-xs-12">
+                                    <div class="footer-widget address-widget">
+                                        <h2>Our Address</h2>
+                                        <div class="widget-content">
+                                            <ul>
+                                                <li>Bodh Valley Resort<br>Gut No. 95</li>
+                                                <li>Mumbai - Nashik Expressway,</li>
+                                                <li>Near Igatpuri, Nashik Dist,</li>
+                                                <li>Balayduri, Maharashtra 422403</li>
+                                                <li>08830061624 / 8422880177</li>
+                                                <li>bodhvalleyresort@gmail.com </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+            <!--Footer Bottom-->
+            <div class="footer-bottom">
+                <div class="auto-container">
+                    <div class="copyright-text">Powered By <a href="www.hospitalityminds.com">Hospitality Minds</a></div>
+                </div>
+            </div>
+        </footer>
+
+
+    </div>
+    <!--End pagewrapper-->
+
+    <!--Scroll to top-->
+    <div class="scroll-to-top scroll-to-target" data-target="html"><span class="fa fa-long-arrow-up"></span></div>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/revolution.min.js"></script>
+    <script src="js/jquery.fancybox.pack.js"></script>
+    <script src="js/jquery.fancybox-media.js"></script>
+    <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="js/owl.js"></script>
+    <script src="js/wow.js"></script>
+    <script src="js/script.js"></script>
+
+    <!-- Tiger Chat -->
+    <script async="async" type="text/javascript" src="https://app.tigerapi.com/rest/?i=MTUyOTY1NTk3NQ=="></script>
+    <!-- Tiger Chat -->
+
+
+    <!--Start of Tawk.to Script-->
+    <script type="text/javascript">
+        var Tawk_API = Tawk_API || {},
+            Tawk_LoadStart = new Date();
+        (function() {
+            var s1 = document.createElement("script"),
+                s0 = document.getElementsByTagName("script")[0];
+            s1.async = true;
+            s1.src = 'https://embed.tawk.to/5ba36249c666d426648af04f/default';
+            s1.charset = 'UTF-8';
+            s1.setAttribute('crossorigin', '*');
+            s0.parentNode.insertBefore(s1, s0);
+        })();
+    </script>
+    <!--End of Tawk.to Script-->
+
+
+    <script>
+        $(document).ready(function() {
+            setTimeout(function() {
+                $("#popUpMain").css("display", "block");
+            }, 2000);
+        });
+        $(".submitId").click(function() {
+            $("#popUpMain").css("display", "none");
+        });
+    </script>
+
+</body>
+
+</html>
